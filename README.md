@@ -1,4 +1,4 @@
-React Boilerplate with Webpack and Babel
+React Flux TODO App
 
 ##Steps:
  - `npm install`
