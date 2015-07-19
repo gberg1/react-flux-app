@@ -1,7 +1,7 @@
 {
-  "name": "trekrec",
+  "name": "react-flux-app",
   "version": "1.0.0",
-  "description": "travel app",
+  "description": "TODO app using react and flux",
   "author": "David Goldberg",
   "scripts": {
     "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --colors",
