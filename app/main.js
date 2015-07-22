@@ -1,16 +1,9 @@
-import React from 'react';
-import Timer from './components/Timer';
+var React = require('react');
 
-let Application = React.createClass({
+var TodoApp = require('./components/TodoApp');
 
-  render: function() {
-    return (
-      <div>
-        <h1>Timer</h1>
-        <Timer />
-      </div>
-    );
-  }
-})
+React.render(
+  <TodoApp />, 
+  document.getElementById('todoapp');
+);
 
-React.render(<Application />, app);
