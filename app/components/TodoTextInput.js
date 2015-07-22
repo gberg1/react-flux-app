@@ -13,9 +13,9 @@ var TodoTextInput = React.createClass({
   },
 
   getInitialState: function() {
-    return (
+    return {
       value: this.props.value || ''
-    );
+    };
   },
 
   render: function() {

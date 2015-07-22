@@ -11,9 +11,9 @@ var TodoItem = React.createClass({
   },
 
   getInitialState: function() {
-    return (
+    return {
       isEditing: false
-    );
+    };
   },
 
   render: function() {
